@@ -9,6 +9,7 @@ boolean keyStoreDefined = project.hasProperty('signingStoreLocation') &&
 
 android {
     compileSdk 36
+    ndkVersion = '29.0.14033849'
     namespace = 'org.adaway'
 
     defaultConfig {
