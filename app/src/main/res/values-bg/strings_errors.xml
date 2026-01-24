@@ -2,21 +2,21 @@
 <resources>
     <!-- Source model errors -->
     <string name="error_no_connection_message">Няма връзка с интернет</string>
-    <string name="error_no_connection_details">Не може да се установи връзка с Интернет. Моля, проверете свързаността на устройството Ви.</string>
-    <string name="error_download_failed_message">Свалянето източника на хостове се провали</string>
-    <string name="error_download_failed_details">Никои от Вашите включени източници на хостове са достъпни. Моля, проверете дали сте свързани към Интернет.</string>
+    <string name="error_no_connection_details">Не може да бъде установена връзка с интернет. Проверете свързаността на устройството.</string>
+    <string name="error_download_failed_message">Неуспешно изтегляне на източника на хостове</string>
+    <string name="error_download_failed_details">Всички избрани източници на хостове не са достъпни. Проверете свързаността на устройството.</string>
     <!-- Hosts install model error -->
-    <string name="error_private_file_failed_message">Създаването на частен файл се провали</string>
-    <string name="error_private_file_failed_details">Невъзможно е създаването на частен файл за сглобяване на нов източник на хостове. Моля, проверете свободното пространство на Вашето устройство.</string>
+    <string name="error_private_file_failed_message">Създаването на частен файл е неуспешно</string>
+    <string name="error_private_file_failed_details">Невъзможно е създаването на частен файл за изграждане на нов източник на хостове. Проверете свободното място на устройството.</string>
     <string name="error_not_enough_space_message">Няма достатъчно място</string>
-    <string name="error_not_enough_space_details">Невъзможно е копирането на хост файл на системния партишън. Моля проверете дали безсистемния модул на Magisk е включен и след това рестартирайте.</string>
-    <string name="error_copy_failed_message">Инсталирането на нов хост файл се провали</string>
-    <string name="error_copy_failed_details">Копирането на файла hosts в /system е невъзможно. Проверете дали безсистемният модул на Magisk е включен и рестартирайте.</string>
-    <string name="error_revert_failed_message">Отменянето на хост файла се провали</string>
-    <string name="error_revert_failed_details">Невъзможно е възстановяването на конфигурацията по подразбиране на хост файла.</string>
+    <string name="error_not_enough_space_details">Невъзможно е копирането на файла hosts на системния дял. Проверете дали модулът „systemless hosts“ на Magisk е включен и след това рестартирайте.</string>
+    <string name="error_copy_failed_message">Инсталирането на нов файл hosts е неуспешно</string>
+    <string name="error_copy_failed_details">Невъзможно е копирането на файла hosts на дялът /system. Проверете дали модулът „systemless hosts“ на Magisk е включен и след това рестартирайте.</string>
+    <string name="error_revert_failed_message">Отменянето на промените във файла hosts е неуспешно</string>
+    <string name="error_revert_failed_details">Възстановяването на подразбираната настройката на файла hosts е неуспешна.</string>
     <!-- VPN model error -->
-    <string name="error_enable_vpn_failed_message">Включването на VPN блокирането на реклами се провали.</string>
-    <string name="error_enable_vpn_failed_details">Моля, проверете Вашите VPN настройки, за да се авторизира VPN на приложението да стартира.</string>
-    <string name="error_disable_vpn_failed_message">Спирането на VPN блокирането на реклами се провали.</string>
-    <string name="error_disable_vpn_failed_details">Моля, проверете Вашите VPN настройки, за да ги изключите ръчно.</string>
+    <string name="error_enable_vpn_failed_message">Включването на спирането на реклами чрез ВЧМ е неуспешно.</string>
+    <string name="error_enable_vpn_failed_details">Проверете настройките на ВЧМ и разрешете на ВЧМ на приложението да стартира.</string>
+    <string name="error_disable_vpn_failed_message">Изключването на ВЧМ за спиране на реклами е неуспешно.</string>
+    <string name="error_disable_vpn_failed_details">Проверете настройките на ВЧМ и го изключете ръчно.</string>
 </resources>

@@ -12,44 +12,44 @@
 
     <!--Home-->
     <string name="header_help">Bem-vindo!</string>
-    <string name="text_help">O AdAway é um projeto de programa de código aberto e gratuito que bloqueia publicidade. Este procura endereços de redes de anúncios para os bloquear no seu dispositivo.\nQuer saber mais? Consulte a ajuda abaixo!</string>
+    <string name="text_help">AdAway é um projeto de programa de código aberto e gratuito que bloqueia a publicidade. Este obtém endereços da rede de anúncios para os bloquear no seu dispositivo.\nQuer saber mais? Consulte a ajuda em baixo!</string>
     <string name="button_show_help">Mostrar mais ajuda</string>
     <string name="icon_update_status">Estado da atualização</string>
-    <string name="text_update">Todos os ficheiros de hospedeiros das fontes definidas foram transferidos, unidos com as suas próprias listas e instalados como um único ficheiro de hospedeiros no seu sistema.</string>
+    <string name="text_update">Foram transferidos todos os ficheiros de anfitriões das fontes definidas, unidos com as suas próprias listas e instalados como um único ficheiro de anfitriões no seu sistema.</string>
     <string name="button_enable_hosts">Ativar bloqueio de anúncios</string>
     <string name="button_disable_hosts">Desativar bloqueio de anúncios</string>
     <string name="header_webserver">Servidor da Web</string>
     <string name="webserver_status_running">Em execução</string>
     <string name="webserver_status_stopped">Parado</string>
-    <string name="webserver_toggle_text">Ligar ou desligar um servidor da Web no hospedeiro local para responder a pedidos de nomes de hospedeiro bloqueados.</string>
+    <string name="webserver_toggle_text">Ligar ou desligar um servidor da Web no anfitrião local para responder aos pedidos dos nomes de anfitriões bloqueados.</string>
     <string name="button_enable_webserver">Ativar servidor da Web</string>
     <string name="button_disable_webserver">Desativar servidor da Web</string>
     <string name="header_vpn">VPN</string>
-    <string name="vpn_status_running">Em funcionamento</string>
+    <string name="vpn_status_running">Em execução</string>
     <string name="vpn_status_stopped">Parado</string>
     <string name="vpn_toggle_text">Iniciar ou parar a VPN para filtrar os pedidos.</string>
     <string name="button_enable_vpn">Ativar VPN</string>
     <string name="button_disable_vpn">Desativar VPN</string>
 
     <!--Checkbox List-->
-    <string name="checkbox_list_context_title">Editar entrada</string>
+    <string name="checkbox_list_context_title">Editar Entrada</string>
     <string name="checkbox_list_context_apply">Aplicar</string>
     <string name="checkbox_list_context_edit">Editar</string>
     <string name="checkbox_list_context_delete">Eliminar</string>
 
     <!--Your lists-->
     <string name="import_dialog">A importar…</string>
-    <string name="import_success">Cópia de segurança importada com sucesso do armazenamento externo.</string>
-    <string name="import_failed">A importação da cópia de segurança falhou. O formato é o correto? Verifique o logcat para mais informações.</string>
+    <string name="import_success">Cópia de segurança importada com sucesso do seu armazenamento externo.</string>
+    <string name="import_failed">A importação da cópia de segurança falhou. O formato está correto? Verifique o \"logcat\" para mais detalhes.</string>
     <string name="export_dialog">A exportar…</string>
-    <string name="export_success">Backup sucessivamente exportado para o ficheiro %s no seu armazenamento interno.</string>
-    <string name="export_failed">Falha ao exportar o arquivo de backup %s. </string>
+    <string name="export_success">Cópia de segurança exportada com sucesso para o ficheiro \'%s\' no seu armazenamento externo.</string>
+    <string name="export_failed">Não foi possível exportar o ficheiro da cópia de segurança \'%s\'. </string>
 
     <!--Hosts content-->
-    <string name="hosts_header">O ficheiro \'\'hosts\'\'</string>
-    <string name="hosts_description">O ficheiro \'\'hosts\'\' é um ficheiro do sistema que mapeia os nomes de hospedeiro para os endereços de IP. É um ficheiro de texto simples cuja configuração é gerida pela AdAway. Aqui tem as suas poucas primeiras linhas:</string>
-    <string name="hosts_content">A carregar o conteúdo do ficheiro \'\'hosts\'\'…</string>
-    <string name="hosts_open_button">Abrir o ficheiro \'\'hosts\'\'</string>
+    <string name="hosts_header">O ficheiro de anfitriões</string>
+    <string name="hosts_description">O ficheiro de anfitriões é um ficheiro do sistema que mapeia os nomes de anfitrião para os endereços de IP. Este é um ficheiro de texto simples cuja configuração é gerida pela AdAway. Aqui tem as suas poucas primeiras linhas:</string>
+    <string name="hosts_content">A carregar o conteúdo do ficheiro de anfitriões…</string>
+    <string name="hosts_open_button">Abrir o ficheiro de anfitriões</string>
 
     <!--Status Notification-->
     <string name="status_check">A procurar atualização</string>
@@ -59,29 +59,29 @@
     <string name="status_read_source">A ler a fonte %s</string>
     <string name="status_parse_source">A analisar a fonte %s</string>
     <string name="status_sync_database">A sincronizar a database de regras</string>
-    <string name="status_revert">A reverter para o ficheiro hosts padrão</string>
-    <string name="status_revert_done">Ficheiro hosts padrão restaurado</string>
-    <string name="status_reverting_subtitle">A criar um ficheiro de hosts padrão</string>
+    <string name="status_revert">A reverter para o ficheiro de anfitriões predefinido</string>
+    <string name="status_revert_done">Ficheiro de anfitriões predefinido restaurado</string>
+    <string name="status_reverting_subtitle">A criar um ficheiro de anfitriões padrão</string>
     <string name="status_update_available">Atualização disponível</string>
-    <string name="status_update_available_subtitle">Novos ficheiros de hosts disponíveis</string>
+    <string name="status_update_available_subtitle">Novos ficheiros de anfitriões disponíveis</string>
     <string name="status_no_update_found">Nenhuma atualização das fontes encontradas</string>
     <string name="status_no_connection">Sem ligação à internet</string>
     <string name="status_no_connection_subtitle">Sem ligação à internet disponível</string>
     <string name="status_download_fail">Fontes indisponíveis</string>
-    <string name="status_download_fail_subtitle_new">Impossível aceder às fontes de hosts!</string>
+    <string name="status_download_fail_subtitle_new">Impossível aceder às fontes de anfitriões!</string>
     <string name="status_root_access_denied">Acesso root negado</string>
     <string name="status_root_access_denied_subtitle">Permitir acesso root na sua aplicação de root</string>
     <string name="status_failure">Algo correu mal</string>
     <string name="status_failure_subtitle">Verifique logcat para mais detalhes</string>
     <string name="status_enabled">Ativado</string>
-    <string name="status_enabled_subtitle">Os ficheiros de hosts mais recentes estão ativos</string>
+    <string name="status_enabled_subtitle">Os ficheiros de anfitriões mais recentes estão ativados</string>
     <string name="status_disabled">Desativado</string>
-    <string name="status_disabled_subtitle">Instalado o ficheiro de hosts padrão.</string>
+    <string name="status_disabled_subtitle">Instalado o ficheiro de anfitriões predefinido.</string>
     <string name="status_apply_sources">Aplicar últimas fontes.</string>
-    <string name="status_create_new_hosts">A criar um ficheiro hosts novo</string>
-    <string name="status_copy_new_hosts">A copiar o novo ficheiro hosts</string>
-    <string name="status_check_copy">A verificar o ficheiro hosts copiado</string>
-    <string name="status_hosts_updated">Ficheiro hosts atualizado com sucesso</string>
+    <string name="status_create_new_hosts">A criar um novo ficheiro de anfitriões</string>
+    <string name="status_copy_new_hosts">A copiar o novo ficheiro de anfitriões</string>
+    <string name="status_check_copy">A verificar o ficheiro de anfitriões copiado</string>
+    <string name="status_hosts_updated">Ficheiro de anfitriões atualizado com sucesso</string>
     <string name="status_vpn_configuration_updated">Configuração da VPN atualizada com sucesso</string>
     <string name="notification_configuration_changed">As suas configurações foram alteradas.
 É necessário aplicá-las.</string>
@@ -90,24 +90,24 @@
     <string name="notification_configuration_failed">Falha ao aplicar nova configuração</string>
 
     <!--Apply and Revert Dialogs-->
-    <string name="apply_symlink_missing_status">O symlink do destino ficheiro hosts está em falta.</string>
+    <string name="apply_symlink_missing_status">A ligação simbólica do destino do ficheiro de anfitriões está em falta</string>
     <string name="apply_symlink_missing">Uma ligação simbólica do seu destino para /system/etc/hosts não existe ou está incorreta! O AdAway não funcionará se não estiver a apontar para o ficheiro correto.\n\nPretende tentar criar uma ligação simbólica?</string>
     <string name="apply_symlink_missing_title">Ligação simbólica em falta</string>
-    <string name="apply_not_enough_space">Não existe espaço suficiente na partição!\nExperimente alterar o ficheiro de hosts de destino nas preferências para /data/data/hosts.</string>
+    <string name="apply_not_enough_space">Não existe espaço suficiente na partição!\nTente alterar o ficheiro de anfitriões de destino nas preferências para /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Espaço insuficiente</string>
     <string name="apply_private_file_fail">Impossível ler o ficheiro descarregado.</string>
     <string name="apply_private_file_fail_title">Falha no ficheiro privado</string>
     <string name="apply_remount_fail">Falha ao remontar a partição em modo leitura/escrita!</string>
     <string name="apply_remount_fail_title">Falha ao remontar</string>
-    <string name="apply_copy_fail_status">Falha ao copiar o ficheiro hosts</string>
-    <string name="apply_copy_fail">Falha ao copiar o ficheiro de hosts!</string>
+    <string name="apply_copy_fail_status">Não foi possível copiar o ficheiro de anfitriões</string>
+    <string name="apply_copy_fail">A cópia do ficheiro de de anfitriões falhou!</string>
     <string name="apply_copy_fail_title">Falha ao copiar</string>
-    <string name="apply_success_subtitle">As fontes de hosts foram aplicadas</string>
+    <string name="apply_success_subtitle">Aplicadas as fontes dos anfitriões</string>
     <string name="apply_success_title">Aplicado com sucesso</string>
     <string name="apply_success_dialog">Aplicado com sucesso.\nPoderá ser necessário reiniciar o Android para as alterações surtirem efeito.\n\nPretende reiniciar?\n(Para prevenir a perda de dados, certifique-se de que nenhuma aplicação está a utilizar o cartão SD neste momento!)</string>
     <string name="apply_symlink_successful">A ligação simbólica foi criada com sucesso.\nPoderá ser necessário reiniciar o Android para que as alterações surtem efeito.\n\nPretende reiniciar?\n(Para prevenir a perda de dados, certifique-se de que nenhuma aplicação está a utilizar o cartão SD neste momento!)</string>
     <string name="apply_symlink_successful_title">Ligação simbólica criada com sucesso</string>
-    <string name="apply_symlink_fail">O link simbólico não pôde ser criado pelo Android.\nIsso acontece principalmente devido a um \'recurso\' chamado S-ON nos telefones HTC!\n\nUma solução é inicializar o telemóvel no modo de recuperação e criar o link simbólico com \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nSe isso não funcionar, procure na Internet por S-OFF e o seu telemóvel.</string>
+    <string name="apply_symlink_fail">A ligação simbólica não pode ser criada pelo Android.\nIsto acontece principalmente devido a uma \'funcionalidade\' chamada de S-ON nos telemóveis HTC!\n\nUma solução é inicializar o seu telemóvel no modo de recuperação e criar a ligação simbólica com \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nSe isto não funcionar, procure na Internet por S-OFF e o seu telemóvel.</string>
     <string name="apply_symlink_fail_title">Falha ao criar a ligação simbólica</string>
     <string name="apply_help">Para mais informações, por favor, leia a ajuda.</string>
     <string name="apply_apn_proxy">Está definido no seu Android um proxy APN!\nO AdAway não funcionará de forma confiável quando estiver em redes móveis como o 3G. Pode desativar este proxy acedendo ao APN selecionado (na aplicação Definições: Rede &amp; Internet -&gt; Rede móvel -&gt; Avançado -&gt; Nomes de pontos de acesso) e remova o valor no campo de proxy.</string>
@@ -117,10 +117,10 @@
     <string name="download_dialog">A descarregar…</string>
     <string name="apply_dialog">A aplicar…</string>
     <string name="apply_dialog_lists">A aplicar listas negra e branca</string>
-    <string name="apply_dialog_hostnames">A analisar e fundir os ficheiros de hosts</string>
-    <string name="apply_dialog_hosts">A construir o ficheiro de hosts</string>
-    <string name="apply_dialog_apply">A aplicar o ficheiro de hosts</string>
-    <string name="apply_fail_status">Falha ao aplicar o novo ficheiro hosts</string>
+    <string name="apply_dialog_hostnames">A analisar e a unir os ficheiros de anfitriões</string>
+    <string name="apply_dialog_hosts">A criar o ficheiro de anfitriões</string>
+    <string name="apply_dialog_apply">A aplicar o ficheiro de anfitriões</string>
+    <string name="apply_fail_status">Não foi possível aplicar o novo ficheiro de anfitriões</string>
     <string name="apply_fail">Falha ao aplicar o ficheiro de hosts no sistema!\nExperimente alterar o ficheiro de hosts de destino nas preferências para /data/data/hosts.</string>
     <string name="apply_fail_title">Falha ao aplicar</string>
     <string name="root_access_fail">Por favor verifique a sua app de gestão root para certificar-se que o acesso root foi concedido.</string>
@@ -214,7 +214,7 @@
     <string name="shortcut_preferences">Preferências</string>
 
     <!--Hosts source status-->
-    <string name="hosts_source_installed">Instalado à %1$s atrás</string>
+    <string name="hosts_source_installed">Instalado à%1$satrás</string>
     <string name="hosts_source_up_to_date"> Atualizado para %1$s</string>
     <string name="hosts_source_need_update">Precisa de atualização para %1$s</string>
     <string name="hosts_source_last_update">Última atualização há %1$s</string>
@@ -243,18 +243,18 @@
     </plurals>
 
     <!-- Clipboard -->
-    <string name="clipboard_host_copied">Host copiado para a área de transferência</string>
+    <string name="clipboard_host_copied">Host copiado para a área de transferências</string>
 
     <!--VPN notification-->
     <string name="vpn_notification_starting">A começar</string>
-    <string name="vpn_notification_running">Ativa</string>
+    <string name="vpn_notification_running">Ativo</string>
     <string name="vpn_notification_stopping">a parar</string>
     <string name="vpn_notification_waiting_for_net">espere por internet</string>
     <string name="vpn_notification_reconnecting">a reconnectar</string>
     <string name="vpn_notification_reconnecting_error">Erro de conexão</string>
     <string name="vpn_notification_paused">pausado</string>
     <string name="vpn_notification_stopped">parado</string>
-    <string name="vpn_notification_title">VPN bloqueadora de anúncios %1$s</string>
+    <string name="vpn_notification_title">Vpn bloqueadora de anúncios%1$s</string>
     <string name="vpn_notification_action_pause">pausar</string>
     <string name="vpn_notification_action_resume">continuar</string>
 
@@ -262,6 +262,6 @@
     <string name="permission_group_api_label">Permissions do AdAway. </string>
     <string name="permission_group_api_description">Permitir a interação com o AdAway. </string>
     <string name="permission_send_command_label">Enviar comandos para o AdAway</string>
-    <string name="permission_send_command_description">Permitir mandar comandos para o AdAway como habilitar ou desabilitar o bloqueio de anúncios no sistema</string>
+    <string name="permission_send_command_description">Permitir mandar comandos para o AdAway como habilitar or desabilitar o o bloqueio de anúncios no sistema</string>
 
 </resources>

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Willkommen!</string>
-    <string name="text_help">AdAway ist ein freier Open-Source Werbeblocker. Wenn eine Netzwerkadresse eines Werbeanbieters aufgerufen wird, blockiert er dies.\nMöchten Sie mehr darüber erfahren? Rufen Sie dazu weiter unten \"Hilfe anzeigen\"  auf!</string>
+    <string name="text_help">AdAway ist eine kostenlose Open-Source-Software zum Blockieren von Werbung. Sie ruft die Adressen von Werbenetzwerken ab, um sie auf Ihrem Gerät zu blockieren. Möchten Sie mehr erfahren? Lesen Sie unten die Hilfe!</string>
     <string name="button_show_help">Hilfe anzeigen</string>
     <string name="icon_update_status">Aktualisierungsstatus</string>
     <string name="text_update">Alle Hosts-Dateien aus den hinterlegten Quellen werden heruntergeladen. Anschließend werden diese zu Ihrer eigenen Liste hinzugefügt und als eine Hosts-Datei im System gespeichert.</string>
@@ -38,17 +38,17 @@
     <string name="checkbox_list_context_delete">Löschen</string>
 
     <!--Your lists-->
-    <string name="import_dialog">Importiere…</string>
+    <string name="import_dialog">Import läuft …</string>
     <string name="import_success">Sicherung erfolgreich aus externem Speicher importiert. </string>
     <string name="import_failed">Einlesen der Sicherung fehlgeschlagen. Passt das Format? Weitere Infos dazu im Logcat Protokoll.</string>
-    <string name="export_dialog">Exportiere…</string>
-    <string name="export_success">Sicherung wurde erfolgreich in die Datei \'%s\' auf externem Speicher erstellt.</string>
-    <string name="export_failed">Erstellen der Sicherungsdatei \'%s\' ist fehlgeschlagen.</string>
+    <string name="export_dialog">Export läuft …</string>
+    <string name="export_success">Sicherung wurde erfolgreich in die Datei „%s“ auf externem Speicher erstellt.</string>
+    <string name="export_failed">Erstellen der Sicherungsdatei „%s“ ist fehlgeschlagen.</string>
 
     <!--Hosts content-->
     <string name="hosts_header">Die Hosts-Datei</string>
-    <string name="hosts_description">Die Hosts-Datei ist eine Datei aus dem Systembereich, bei der Hostnamen(Webadressen) zu IP-Adressen zugewiesen werden. Die Konfiguration der reinen Text Datei wird von AdAway übernommen. Nachfolgend ihre ersten Zeilen:</string>
-    <string name="hosts_content">Inhalt der Hosts-Datei laden…</string>
+    <string name="hosts_description">Die Hosts-Datei ist eine Systemdatei, die Hostnamen IP-Adressen zuordnet. Es handelt sich um eine reine Textdatei, deren Konfiguration von AdAway verwaltet wird. Hier sind die ersten Zeilen:</string>
+    <string name="hosts_content">Inhalt der Hosts-Datei wird geladen …</string>
     <string name="hosts_open_button">Hosts-Datei öffnen</string>
 
     <!--Status Notification-->
@@ -56,8 +56,8 @@
     <string name="status_check_source">Quelle %s auf Aktualisierung prüfen</string>
     <string name="status_retrieve">Quellen abrufen</string>
     <string name="status_download_source">Quelle %s wird heruntergeladen</string>
-    <string name="status_read_source">Lese Quelle %s</string>
-    <string name="status_parse_source">Analysiere Quelle %s</string>
+    <string name="status_read_source">Quelle %s wird gelesen</string>
+    <string name="status_parse_source">Quelle %s wird analysiert</string>
     <string name="status_sync_database">Abgleichen des Regelwerks</string>
     <string name="status_revert">Hosts-Datei wird auf Standard zurückgesetzt</string>
     <string name="status_revert_done">Standard-Hosts-Datei wiederhergestellt</string>
@@ -72,7 +72,7 @@
     <string name="status_root_access_denied">Root-Zugriff verweigert</string>
     <string name="status_root_access_denied_subtitle">Aus der Root-App den Root-Zugriff zulassen.</string>
     <string name="status_failure">Ein Fehler ist aufgetreten</string>
-    <string name="status_failure_subtitle">Logcat für weitere Details sichten</string>
+    <string name="status_failure_subtitle">Logcat für weitere Details prüfen</string>
     <string name="status_enabled">Aktiviert</string>
     <string name="status_enabled_subtitle">Die neuesten Hosts-Dateien sind aktiv</string>
     <string name="status_disabled">Deaktiviert</string>
@@ -83,13 +83,13 @@
     <string name="status_check_copy">Kopie der Hosts-Datei wird geprüft</string>
     <string name="status_hosts_updated">Hosts-Datei erfolgreich aktualisiert</string>
     <string name="status_vpn_configuration_updated">VPN-Konfiguration erfolgreich aktualisiert</string>
-    <string name="notification_configuration_changed">Ihre Konfiguration hat sich geändert. Zum Anwenden \'übernehmen\' betätigen.</string>
+    <string name="notification_configuration_changed">Ihre Konfiguration hat sich geändert. Zum Anwenden „Übernehmen“ betätigen.</string>
     <string name="notification_configuration_changed_action">Übernehmen</string>
     <string name="notification_configuration_installing">Neue Konfiguration wird übernommen …</string>
     <string name="notification_configuration_failed">Anwendung der neuen Konfiguration ist fehlgeschlagen.</string>
 
     <!--Apply and Revert Dialogs-->
-    <string name="apply_symlink_missing_status">Die symbolische Verknüpfung (symlink) zur Hosts-Datei fehlt</string>
+    <string name="apply_symlink_missing_status">Die symbolische Verknüpfung (Symlink) zur Hosts-Datei fehlt</string>
     <string name="apply_symlink_missing">Die symbolische Verknüpfung (Symlink) zwischen Ziel und /system/etc/hosts ist nicht vorhanden oder falsch! Ohne diese Verknüpfung wird AdAway nicht funktionieren.\n\nMöchten Sie versuchen eine symbolische Verknüpfung zu erstellen?</string>
     <string name="apply_symlink_missing_title">Symbolische Verknüpfung fehlt</string>
     <string name="apply_not_enough_space">Nicht genügend Speicherplatz auf der Partition frei!\nVersuchen Sie die zu benutzende Hosts-Datei auf /data/data/hosts zu ändern.</string>
@@ -103,18 +103,18 @@
     <string name="apply_copy_fail_title">Kopieren fehlgeschlagen</string>
     <string name="apply_success_subtitle">Hosts-Quellen wurden angewandt</string>
     <string name="apply_success_title">Erfolgreich angewendet</string>
-    <string name="apply_success_dialog">Änderungen waren erfolgreich.\nDamit alle Änderungen wirksam werden, kann es nötig sein Android neu zu starten.\n\nMöchten Sie neu starten?\n(Um Datenverlust zu vermeiden, stellen Sie bitte sicher, dass keine Anwendung gerade die SD-Karte verwendet!)</string>
-    <string name="apply_symlink_successful">Symbolische Verknüpfung wurde erfolgreich erstellt.\nAndroid muss eventuell neu gestartet werden, damit alle Änderungen wirksam werden.\n\nMöchten Sie neu starten?\n(Um Datenverluste zu vermeiden darf momentan keine Anwendung die SD-Karte verwenden!)</string>
+    <string name="apply_success_dialog">Änderungen waren erfolgreich.\nAndroid muss eventuell neu gestartet werden, damit alle Änderungen wirksam werden.\n\nMöchten Sie neu starten?\n(Um Datenverlust zu vermeiden, stellen Sie bitte sicher, dass keine Anwendung gerade die SD-Karte verwendet!)</string>
+    <string name="apply_symlink_successful">Symbolische Verknüpfung wurde erfolgreich erstellt.\nAndroid muss eventuell neu gestartet werden, damit alle Änderungen wirksam werden.\n\nMöchten Sie neu starten?\n(Um Datenverluste zu vermeiden, darf momentan keine Anwendung die SD-Karte verwenden!)</string>
     <string name="apply_symlink_successful_title">Symbolische Verknüpfung erfolgreich erstellt</string>
-    <string name="apply_symlink_fail">Symbolische Verknüpfung konnte nicht von Android erstellt werden.\nDies liegt wahrscheinlich an einer \'Funktion\' namens S-ON auf HTC-Geräten!\n\nEine Lösung ist es, Ihr Gerät im Wiederherstellungsmodus zu starten und die Verknüpfung von dort mit »ln -s /data/data/hosts /system/etc/hosts« zu erstellen.\n\nWenn dies nicht funktioniert, suchen Sie bitte im Internet nach S-OFF und Ihrem Gerät.</string>
+    <string name="apply_symlink_fail">Symbolische Verknüpfung konnte nicht von Android erstellt werden.\nDies liegt wahrscheinlich an einer „Funktion“ namens S-ON auf HTC-Geräten!\n\nEine Lösung ist es, Ihr Gerät im Wiederherstellungsmodus zu starten und die Verknüpfung von dort mit „ln -s /data/data/hosts /system/etc/hosts“ zu erstellen.\n\nWenn dies nicht funktioniert, suchen Sie bitte im Internet nach S-OFF und Ihrem Gerät.</string>
     <string name="apply_symlink_fail_title">Symbolische Verknüpfung konnte nicht erstellt werden</string>
     <string name="apply_help">Bitte Hilfe für mehr Informationen lesen.</string>
-    <string name="apply_apn_proxy">Auf Ihrem Android-Gerät ist ein Zugangspunktvermittlungsserver (APN-Proxy) aktiviert!\nAdAway wird in Mobilfunknetzen (2G, 3G, 4G, 5G) nicht zuverlässig funktionieren. Sie können diesen Vermittlungsserver (Proxy) deaktivieren, indem Sie in den Einstellungen wechseln: Netzwerk &amp; Internet -&gt; Mobilfunknetz -&gt; Zugangspunkte (APNs)) und den Wert im Proxy-Feld entfernen.</string>
+    <string name="apply_apn_proxy">Auf Ihrem Android-Gerät ist ein APN-Proxy eingerichtet! AdAway funktioniert nicht zuverlässig in Mobilfunknetzen wie 3G usw. Sie können diesen Proxy deaktivieren, indem Sie zu Ihrem ausgewählten APN gehen (in der App „Einstellungen“: Verbindungen -> Mobile Netzwerke -> Erweitert -> Zugangspunktnamen) und den Wert im Proxy-Feld entfernen.</string>
     <string name="apply_apn_proxy_title">APN-Proxy eingestellt!</string>
     <string name="no_connection">Die Internetverbindung funktioniert nicht.</string>
     <string name="no_connection_title">Keine Verbindung</string>
-    <string name="download_dialog">Wird heruntergeladen…</string>
-    <string name="apply_dialog">Wird angewendet…</string>
+    <string name="download_dialog">Wird heruntergeladen …</string>
+    <string name="apply_dialog">Wird angewendet …</string>
     <string name="apply_dialog_lists">Negativ- und Positivliste werden angewendet</string>
     <string name="apply_dialog_hostnames">Hosts-Dateien werden verarbeitet und zusammengefügt</string>
     <string name="apply_dialog_hosts">Hosts-Datei wird erstellt</string>
@@ -167,20 +167,20 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Hier sind schlechte Werbesoftware Anwendungen aufgelistet, die nicht von AdAway blockiert werden können. Diese Apps nutzen zum Beispiel Airpush-Benachrichtigungen die selbst dann erscheinen, wenn die App gar nicht läuft oder es wird sogar Ihr Klingelton umgestellt. Die einzige Gegenmaßnahme ist solche Apps zu deinstalieren, indem Sie auf die Listeneinträge klicken.</string>
+    <string name="adware_description">Hier sind schlechte Werbesoftware-Anwendungen aufgelistet, die nicht von AdAway blockiert werden können. Diese Apps nutzen zum Beispiel Airpush-Benachrichtigungen, die selbst dann erscheinen, wenn die App gar nicht läuft, oder es wird sogar Ihr Klingelton umgestellt. Die einzige Gegenmaßnahme ist solche Apps zu deinstalieren, indem Sie auf die Listeneinträge klicken.</string>
     <string name="adware_scanning">Durchsuchen …</string>
     <string name="adware_empty">Keine Adware gefunden!</string>
 
     <!--Other-->
     <string name="app_subtitle">Werbeblocker</string>
     <string name="no_text_editor_title">Kein Text Editor installiert</string>
-    <string name="no_text_editor">Es konnte kein Text Editor gefunden werden um die Hosts-Datei zu öffnen. Sie können Jota oder eine andere Editor installieren um Textdateien zu öffnen.\n\nMöchten Sie Jota installieren?</string>
+    <string name="no_text_editor">Es konnte kein Texteditor gefunden werden, um die Hosts-Datei zu öffnen. Sie können Jota oder eine andere Editor installieren, um Textdateien zu öffnen.\n\nMöchten Sie Jota installieren?</string>
     <string name="no_file_manager_title">Keine Dateiverwaltung installiert</string>
-    <string name="no_file_manager">Es konnte keine Dateiverwaltung gefunden werden um Dateien zu öffnen. Sie können um dies zu beheben  »OI File Manager« oder einen andere Dateimanager installieren.\n\n Möchten Sie »OI File Manager« installieren?</string>
+    <string name="no_file_manager">Es konnte keine Dateiverwaltung gefunden werden, um Dateien zu öffnen. Sie können, um dies zu beheben, „OI File Manager“ oder einen andere Dateimanager installieren.\n\n Möchten Sie „OI File Manager“ installieren?</string>
 
     <!--Tcpdump-->
     <string name="tcpdump_header">TCPdump</string>
-    <string name="tcpdump_description">Mit TCPDump können DNS-Anfragen aufgezeichnet und in einer Protokolldatei gespeichert werden. Dazu TCPDump im Hintergrund starten und anschließend die App mit Werbung ausführen. Danach die Protokolldatei in AdAway analysieren. Mögliche Werbe-Server können nun zu Ihrer Negativliste(blacklist) hinzugefügt werden.</string>
+    <string name="tcpdump_description">Mit TCPDump können DNS-Anfragen aufgezeichnet und in einer Protokolldatei gespeichert werden. Dazu TCPDump im Hintergrund starten und anschließend die App mit Werbung ausführen. Danach die Protokolldatei in AdAway analysieren. Mögliche Werbeserver können nun zu Ihrer Negativliste (blacklist) hinzugefügt werden.</string>
     <string name="tcpdump_disable_monitoring">Aufzeichnung deaktivieren</string>
     <string name="tcpdump_enable_monitoring">Aufzeichnung aktivieren</string>
     <string name="tcpdump_show_results">Ergebnisse anzeigen</string>
@@ -254,9 +254,9 @@
     <string name="vpn_notification_action_resume">Weiter</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway Bewilligung</string>
-    <string name="permission_group_api_description">Mit AdAway den Kontakt bewilligen</string>
+    <string name="permission_group_api_label">AdAway-Berechtigungen</string>
+    <string name="permission_group_api_description">Interaktion mit AdAway zulassen</string>
     <string name="permission_send_command_label">Befehle an AdAway senden</string>
-    <string name="permission_send_command_description">Bewillige das Senden von Befehlen an AdAway, wie \"Einschalten\" oder \"Ausschalten\" des Werbeblockers</string>
+    <string name="permission_send_command_description">Das Senden von Befehlen an AdAway erlauben, wie „Einschalten“ oder „Ausschalten“ des Werbeblockers</string>
 
 </resources>
