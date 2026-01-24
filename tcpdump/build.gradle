@@ -1,4 +1,6 @@
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+}
 
 android {
     sourceSets {
@@ -6,14 +8,13 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
-    compileSdk 36
+    compileSdk = libs.versions.compileSdk.get().toInteger()
 
-    ndkVersion = '29.0.14033849'
+    ndkVersion = libs.versions.ndk.get()
     namespace = 'org.adaway.libpcap'
 
     defaultConfig {
-        minSdkVersion 26
-        targetSdkVersion 36
+        minSdk = libs.versions.minSdk.get().toInteger()
     }
 
     externalNativeBuild {
@@ -24,6 +25,12 @@ android {
 
     sonarqube {
         skipProject = true
+    }
+    lint {
+        targetSdk = libs.versions.targetSdk.get().toInteger()
+    }
+    testOptions {
+        targetSdk = libs.versions.targetSdk.get().toInteger()
     }
 }
 
@@ -63,4 +70,3 @@ afterEvaluate {
         dependsOn renameJniLibAsExecutable
     }
 }
-

@@ -8,13 +8,13 @@ boolean keyStoreDefined = project.hasProperty('signingStoreLocation') &&
         project.hasProperty('signingKeyPassword')
 
 android {
-    compileSdk 36
-    ndkVersion = '29.0.14033849'
+    compileSdk = libs.versions.compileSdk.get().toInteger()
+    ndkVersion = libs.versions.ndk.get()
     namespace = 'org.adaway'
 
     defaultConfig {
-        minSdk 26
-        targetSdk 36
+        minSdk = libs.versions.minSdk.get().toInteger()
+        targetSdk = libs.versions.targetSdk.get().toInteger()
         versionCode libs.versions.appCode.get() as int
         versionName libs.versions.appName.get()
 
@@ -63,18 +63,13 @@ android {
         viewBinding = true
     }
 
-    packagingOptions {
+    packaging {
         jniLibs {
             useLegacyPackaging = true
         }
     }
 
     buildTypes {
-//        debug {
-//            shrinkResources false
-//            minifyEnabled false
-//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-//        }
         release {
             minifyEnabled true
             shrinkResources = true
@@ -101,8 +96,6 @@ dependencies {
     implementation libs.androidx.cardview
     implementation libs.androidx.constraintlayout
     implementation libs.fragment
-    // "fragment-ktx" is not used but was added to fix the following dependency error:
-    // Duplicate class androidx.lifecycle.ViewModelLazy found in modules lifecycle-viewmodel-2.5.0-runtime (androidx.lifecycle:lifecycle-viewmodel:2.5.0) and lifecycle-viewmodel-ktx-2.3.1-runtime
     implementation libs.androidx.fragment.ktx
     implementation libs.androidx.localbroadcastmanager
     implementation libs.androidx.paging.runtime
@@ -143,5 +136,4 @@ dependencies {
     testImplementation libs.junit
     testImplementation libs.json
     androidTestImplementation libs.bundles.androidx.test
-    androidTestImplementation libs.junit
 }

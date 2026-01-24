@@ -1,13 +1,14 @@
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+}
 
 android {
-    compileSdk 36
-    ndkVersion = '29.0.14033849'
+    compileSdk = libs.versions.compileSdk.get().toInteger()
+    ndkVersion = libs.versions.ndk.get()
     namespace = 'io.sentry'
 
     defaultConfig {
-        minSdk 26
-        targetSdk 36
+        minSdk = libs.versions.minSdk.get().toInteger()
     }
 
     compileOptions {
@@ -17,5 +18,11 @@ android {
 
     sonarqube {
         skipProject = true
+    }
+    lint {
+        targetSdk = libs.versions.targetSdk.get().toInteger()
+    }
+    testOptions {
+        targetSdk = libs.versions.targetSdk.get().toInteger()
     }
 }
